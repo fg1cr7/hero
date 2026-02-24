@@ -1,11 +1,30 @@
+ 
+body {
+    display:flex-block;
+    margin: 0;
+}
 header, footer {
   /* header footer common*/
   background-color: #1F2937;
-  
+  display:block;
+  padding-bottom: 1px;
+  padding-top: 1px;
+  margin: 0;
 }
 
 main {
   /* header footer common*/
+  padding-top: 1px; /* or any small value */
   background-color: #1F2937;
   
+}
+.quote{
+    padding-bottom: 1px;
+    padding-top: 1px;
+    background-color: #E5E7EB;
+}
+.call-to-action {
+    padding-bottom: 1px;
+    padding-top: 1px;
+    background-color: #3882F6;
 }
