@@ -1,22 +1,47 @@
  
 body {
-    display:flex-block;
-    margin: 0;
+    font-family: Roboto;
+    border-left: 40px solid black;
+    border-right: 40px solid black;
+    display:block
+    
+}
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    
 }
 header, footer {
   /* header footer common*/
   background-color: #1F2937;
-  display:block;
   padding-bottom: 1px;
   padding-top: 1px;
   margin: 0;
 }
+/* link text */
+a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #E5E7EB  
+    
+}
+.logo {
+    font-size: 24px;
+    padding: 5px;
+    margin-left: 03%;
+}
 
+h4{
+    font-size: 18px;
+    text-decoration: none;
+    color: #E5E7EB  
+}
 main {
   /* header footer common*/
   padding-top: 1px; /* or any small value */
   background-color: #1F2937;
-  
+  display: block;
 }
 .quote{
     padding-bottom: 1px;
